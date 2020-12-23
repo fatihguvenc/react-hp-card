@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function UnLike() {
+export default function UnLike(props) {
   return (
-    <button type="button" class="btn btn-danger">
-      Danger
+    <button onClick={props.onClick} type="button" class="btn btn-danger">
+      <i class="fas fa-thumbs-down" />
     </button>
   );
 }
