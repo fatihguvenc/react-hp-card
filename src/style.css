@@ -5,3 +5,7 @@ h1, p {
   font-size: 32px;
   font-weight: 700;
 }
+.props-color{
+  color :Red;
+  font-weight: 500;
+}

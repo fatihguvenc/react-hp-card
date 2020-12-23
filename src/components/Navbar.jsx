@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand logo" href="#">
           9 ¾
         </a>
@@ -18,7 +18,10 @@ export default function Navbar() {
         >
           <span class="navbar-toggler-icon" />
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
