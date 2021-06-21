@@ -10,7 +10,7 @@ const HP_DATA = [
   },
   {
     imgURL:
-      "https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest/scale-to-width-down/180?cb=20141230074301",
+      "https://upload.wikimedia.org/wikipedia/tr/d/d3/Hermione_Granger_poster.jpg",
     name: "Hermione Granger",
     build: "Gryffindor",
     age: "27",
